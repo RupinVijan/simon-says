@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+body{
+    min-height: 100vh;
+    max-width: 100%;
+    font-family: 'Acme', sans-serif;
+
+}
+
+.heading{
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+    
+}
+#game{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Acme', sans-serif;
+}
+#color-items{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.item{
+    min-width: 35%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Acme', sans-serif;
+    border:2px solid black;
+    margin:30px 10px;
+}
+#r{
+    background-color: red;
+}
+#b{
+    background-color: blue;
+}
+#g{
+    background-color: green;
+}
+#y{
+    background-color: yellow;
+}
+
